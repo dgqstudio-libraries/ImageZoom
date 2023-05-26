@@ -16,11 +16,14 @@ This is a custom component for Android to zoom images using touch gestures.
 ### Gradle
 
 ```gradle
-repositories {
-    maven { url 'https://jitpack.io' }
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
 dependencies {
-    implementation 'com.github.????</'
+    implementation 'com.github.dgqstudio-libraries:ImageZoom:1.0.0'
 }
 ```
 
@@ -35,9 +38,9 @@ dependencies {
 
 <!-- <dependencies> section of pom.xml -->
 <dependency>
-    <groupId>com.github.dgqstudio</groupId>
-    <artifactId>????</artifactId>
-    <version>????</version>
+    <groupId>com.github.dgqstudio-libraries</groupId>
+    <artifactId>ImageZoom</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
